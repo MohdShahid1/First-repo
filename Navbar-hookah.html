@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile web with HTML and CSS</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Skranji&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tut13.css">
+<style>
+    /* * {
+        color: white;
+
+    } */
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("https://cdn.pixabay.com/photo/2018/10/12/09/49/shisha-3741795_640.jpg");
+        background-size: cover;
+        font-family: 'Skranji', cursive;
+
+    }
+
+    .left {
+        display: inline-block;
+        margin: 20px;
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        /* border: 3px solid black; */
+
+    }
+
+    .left div {
+        text-align: center;
+        color: yellow;
+        font-size: 20px;
+
+    }
+
+    .left img {
+        width: 74px;
+        height: 74px;
+        /* filter: invert(18%); */
+        border: 2px solid yellow;
+        border-radius: 60px;
+    }
+
+    .center {
+        display: block;
+        margin: 30px auto;
+        width: 450px;
+        /* border: 3px solid black; */
+
+    }
+
+    .right {
+        display: inline-block;
+        margin: 38px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        /* border: 3px solid black; */
+        margin-left: 30px;
+
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+        background-color: rgb(216, 209, 209);
+        padding-left: 20px;
+        padding-right: 20px;
+        /* margin: auto; */
+        border-radius: 20px;
+        border: 1px solid rgb(247, 51, 51);
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: rgb(10, 10, 10);
+        text-decoration: none;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(247, 51, 51);
+    }
+
+    .btn {
+        margin: 0px 10px;
+        background-color: rgb(216, 209, 209);
+        color: rgb(12, 12, 12);
+        border-radius: 10px;
+        border: 0.5px solid rgb(247, 51, 51);
+        font-size: 15px;
+        padding: 10px;
+        font-family: 'Skranji', cursive;
+
+
+
+    }
+
+    .btn:hover,
+    .btn:active {
+        text-decoration: underline;
+        color: rgb(247, 51, 51);
+
+    }
+
+    .content {
+
+        /* border: 2px solid red; */
+        margin: 80px 24px 29px 69px;
+        padding: 28px 30px 27px 75px;
+        width: 38%;
+        border-radius: 20px;
+        color: white;
+
+    }
+    .content h1{
+        color: yellow;
+        
+    }
+
+    .form input {
+        text-align: center;
+        display: block;
+        width: 389px;
+        padding: 14px;
+        margin: 20px;
+        margin-left: 87px;
+        border-radius: 20px;
+        /* color: black; */
+        background-color: rgb(216, 209, 209);
+        border: 1px solid rgb(12, 12, 12);
+
+        font-family: 'Skranji', cursive;
+    }
+
+    .content button {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-top: 45px;
+    }
+</style>
+
+<body>
+    <header class="container">
+        <div class="left">
+            <img src="https://th.bing.com/th/id/OIP.am59OFXhfK2p3CC7rZlNTAHaE7?w=260&h=180&c=7&r=0&o=5&pid=1.7">
+            <DIV><b>HOOKARDZZZ...</b></DIV>
+        </div>
+
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a> </li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <button class="btn">Help</button>
+            <button class="btn">Settings</button>
+
+        </div>
+
+
+    </header>
+    <div class="content">
+        <h1>Welcome to HOOKARDZZZ... </h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name...">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your legal age ...">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your gender...">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your phone number...">
+            </div>
+            <button class="btn" id="btn_submit">Submit
+
+            </button>
+
+    </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
