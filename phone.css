@@ -1,0 +1,106 @@
+/* body */
+body {
+    /* background-color: red; */
+}
+
+
+/* navigation */
+#navbar {
+    flex-direction: column;
+    position: sticky;
+}
+
+#navbar ul{
+    margin: 0px 26px 0px 0px;
+}
+
+#navbar ul li {
+    font-size: 15px;
+    padding: 0px 7px;
+}
+.logo{
+margin: 0px 0px 0px 0px;
+}
+/* home */
+#home {
+    height: 568px;
+    padding: 1px 29px 3px 23px;
+}
+
+#home::before {
+    height: 580px;
+    font-size: 8px;
+}
+
+.heading0 {
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+#home p {
+
+    font-size: 18px;
+    text-wrap: balance;
+    padding-right: 0px;
+
+}
+
+/* services */
+.services {
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+/* products */
+#clients {
+    justify-content: space-around;
+
+    
+}
+#client_section{
+    height: 138vh;
+    justify-content: space-between;
+}
+
+#img1 img {
+    width: 402px;
+    height: 367px;
+}
+
+#img2 img {
+    width: 359px;
+    height: 295px;
+}
+
+/* 
+#img1 {
+    width: 100%;
+    height: auto;
+    margin-right: -120px;
+    margin-left: 123px;
+}
+
+#img2{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+} */
+
+#btn3, #btn3_1{
+    margin-left: 92px;
+
+}
+
+#btn3 {
+    /* margin-top: px; */
+}
+
+#btn2, #btn2_1{
+    margin-left: 122px; 
+}
+/* contact us */
+#contact_box {
+    margin: 0px -100px 10px -100px;
+}
+
+/* footer  */

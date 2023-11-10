@@ -1,0 +1,33 @@
+
+#home {
+    height: 546px;
+}
+
+#client_section {
+    height: 440px;
+
+}
+
+#img2 img {
+    width: 170px;
+    height: 140px;
+}
+
+#img1 img {
+    width: 195px;
+    height: 170px;
+}
+
+#img1 {
+    margin-right: 0px;
+    margin-left: 178px;
+}
+
+#btn3 {
+    margin-top: 13px;
+}
+
+#btn2, #btn2_1 {
+    margin-left: 48px;
+    font-size: 13px;
+}

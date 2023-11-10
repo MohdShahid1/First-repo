@@ -1,0 +1,100 @@
+body {
+    background-color: red;
+}
+
+.heading1 {
+    margin-bottom: -1px;
+    font-size: 24px;
+    
+}
+
+#home {
+    height: 548px;
+}
+
+.heading0 {
+    font-size: 24px;
+    margin-top: 166px;
+    margin-left: 8px;
+}
+
+
+#home p {
+    font-size: 16px;
+    margin-right: -64px;
+}
+
+#navbar ul {
+    margin: 14px 0px 6px -2px;
+}
+
+#navbar ul li{
+    padding: 0px 7px;
+}
+
+#navbar ul li a {
+    padding: 0px;
+}
+.box img {
+    margin-left: -18px;
+}
+
+.heading2 {
+    font-size: 16px;
+}
+
+.parabags {
+    font-size: 16px;
+}
+
+#client_section {
+    height: auto;
+
+}
+
+.heading3 {
+    font-size: 24px;
+}
+
+#img1 img {
+    width: 162px;
+    height: 143px;
+}
+
+#img2 img {
+    width: 130px;
+    height: 120px;
+
+    margin-top: -16px;
+}
+
+#img1 {
+    margin-right: -7px;
+    margin-left: 178px;
+}
+
+#btn2, #btn2_1 {
+    margin-left: 43px;
+    font-size: 7px;
+}
+
+#btn3, #btn3_1 {
+    margin-left: 29px;
+    font-size: 7px;
+}
+
+#btn3 {
+    margin-top: 9px;
+}
+
+#heading4{
+    font-size: 24px;
+}
+
+#contact_box label {
+    font-size: 15px;
+}
+
+#contact_box form {
+    width: 34%;
+}
