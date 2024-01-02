@@ -1,0 +1,42 @@
+
+/* home */
+
+/* img1 */
+#img1 img {
+    width: 250px;
+    height: 230px;
+}
+
+#img2 img {
+    width: 211px;
+    height: 188px;
+    margin-top: -11px;
+}
+
+#client_section {
+    height: 90vh;
+    justify-content: center;
+}
+
+#img1 {
+    margin-right: 88px;
+    margin-left: 176px;
+}
+
+#btn2, #btn2_1 {
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+#btn3, #btn3_1 {
+    margin-left: 46px;
+    font-size: 15px;
+}
+
+#contact_box {
+    margin: 0px -76px 10px -100px;
+}
+
+#contact_box label {
+    font-size: 15px;
+}

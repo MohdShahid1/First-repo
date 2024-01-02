@@ -1,7 +1,3 @@
-/* body */
-body {
-    /* background-color: red; */
-}
 
 
 /* navigation */
@@ -10,7 +6,7 @@ body {
     position: sticky;
 }
 
-#navbar ul{
+#navbar ul {
     margin: 0px 26px 0px 0px;
 }
 
@@ -18,9 +14,11 @@ body {
     font-size: 15px;
     padding: 0px 7px;
 }
-.logo{
-margin: 0px 0px 0px 0px;
+
+.logo {
+    margin: 0px 0px 0px 0px;
 }
+
 /* home */
 #home {
     height: 568px;
@@ -55,49 +53,48 @@ margin: 0px 0px 0px 0px;
 #clients {
     justify-content: space-around;
 
-    
+
 }
-#client_section{
-    height: 138vh;
+
+#client_section {
+    height: 100vh;
     justify-content: space-between;
 }
 
 #img1 img {
-    width: 402px;
-    height: 367px;
+    width: 285px;
+    height: 276px;
 }
 
 #img2 img {
-    width: 359px;
-    height: 295px;
+    width: 245px;
+    height: 222px;
 }
 
-/* 
+
 #img1 {
-    width: 100%;
-    height: auto;
-    margin-right: -120px;
-    margin-left: 123px;
+    margin-right: 170px;
+    margin-left: 170px;
+}
+#img2 {
+
+    margin-top: 24px;
 }
 
-#img2{
-    width: 100%;
-    height: auto;
-    margin-top: 40px;
-} */
-
-#btn3, #btn3_1{
-    margin-left: 92px;
+#btn3,
+#btn3_1 {
+    margin-left: 62px;
 
 }
 
 #btn3 {
-    /* margin-top: px; */
+    margin-top: 22px;
 }
 
-#btn2, #btn2_1{
-    margin-left: 122px; 
+#btn2, #btn2_1 {
+    margin-left: 75px;
 }
+
 /* contact us */
 #contact_box {
     margin: 0px -100px 10px -100px;
